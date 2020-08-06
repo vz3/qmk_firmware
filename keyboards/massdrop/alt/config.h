@@ -119,6 +119,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define NO_ACTION_ONESHOT
 //#define NO_ACTION_MACRO
 //#define NO_ACTION_FUNCTION
+/* vz RGB Steps */
+#define RGBLIGHT_HUE_STEP           2
+#define RGBLIGHT_SAT_STEP           2
+#define RGBLIGHT_VAL_STEP           2
 
 #define RGB_MATRIX_KEYPRESSES
 #define RGB_MATRIX_LED_PROCESS_LIMIT 15
